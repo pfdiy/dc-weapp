@@ -1,0 +1,44 @@
+<!--pages/login/index.wxml-->
+<view class="container">
+  <swiper autoplay interval="4000">
+    <swiper-item>
+      <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.jj20.com%2Fup%2Fallimg%2F911%2F111G5133543%2F15111G33543-1.jpg&refer=http%3A%2F%2Fpic.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1647195413&t=6ecbb9eba30355ab9413e67af0b7e04b"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fphoto%2F2012-3-26%2Fenterdesk.com-3947C8124CD406DC594BEDF507AB07DC.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1647195413&t=d50cb51e4b6c5aedd0c89003a9099f3f"></image>
+    </swiper-item>
+  </swiper>
+  <view class="login-group">
+  </view>
+  <view class="login-tab">
+    <van-tabs animated color="#1989fa">
+      <van-tab title="骑手端">
+        <view class="login-tab-item">
+          <image src="/static/01.png"></image>
+          <van-button round color="#1989fa">
+            微信一键登录
+          </van-button>
+        </view>
+      </van-tab>
+      <van-tab title="员工端">
+        <view class="login-tab-item">
+          <image src="/static/01.png"></image>
+          <van-button round color="#1989fa">
+            微信一键登录
+          </van-button>
+        </view>
+      </van-tab>
+      <van-tab title="管理员">
+        <view class="login-tab-item">
+          <image src="/static/01.png"></image>
+          <van-button round color="#1989fa">
+            微信一键登录
+          </van-button>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+  <view>
+    <tabbar />
+  </view>
+</view>

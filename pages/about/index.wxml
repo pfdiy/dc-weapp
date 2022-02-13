@@ -1,0 +1,5 @@
+<!--pages/about/index.wxml-->
+<view>
+  <about />
+  <tabbar />
+</view>

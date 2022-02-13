@@ -1,0 +1,9 @@
+/* components/about/index.wxss */
+
+.ad{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkgray;
+}

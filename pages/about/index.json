@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "about":"/components/about/index",
+    "tabbar":"/components/tabbar/index"
+  }
+}

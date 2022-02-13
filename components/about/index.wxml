@@ -1,0 +1,10 @@
+<!--components/about/index.wxml-->
+<view class="ad">
+  <van-cell-group inset>
+    <van-cell icon="location-o" title="单元格" is-link />
+    <van-cell icon="location-o" title="单元格" is-link />
+    <van-cell icon="location-o" title="单元格" is-link />
+    <van-cell icon="location-o" title="单元格" is-link />
+    <van-cell icon="location-o" title="单元格" is-link />
+  </van-cell-group>
+</view>
