@@ -1,12 +1,10 @@
 {
   "pages": [
     "pages/login/index",
-    "pages/about/index"
+    "pages/about/index",
+    "pages/order/index",
+    "pages/device/index"
   ],
-  "usingComponents": {
-    "van-tabbar": "@vant/weapp/tabbar/index",
-    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
-  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

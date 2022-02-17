@@ -1,0 +1,126 @@
+<!--components/order/index.wxml-->
+<view class="container">
+  <view class="order-cell">
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+<slot>1?</slot>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+<view class="order-font">
+<text>姓名：张三</text>
+<text>电话：18998987654</text>
+<text>金额：213元</text>
+<text>开始时间：2020年12月3日 16:03</text>
+<text>到期时间：2021年12月3日 16:03</text>
+<text>电池编码：SN202012120301</text>
+<text>编码型号：72V32A</text>
+</view>
+  </view>
+  <tabbar />
+</view>

@@ -1,6 +1,4 @@
 <!--components/tabbar/index.wxml-->
-
-
 <view>
   <van-tabbar active="{{ active }}" bind:change="onChange">
     <van-tabbar-item icon="wap-home">首页</van-tabbar-item>

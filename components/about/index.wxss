@@ -1,9 +1,29 @@
 /* components/about/index.wxss */
-
-.ad{
-  height: 500rpx;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.about-cell {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: darkgray;
+  align-items: center;
+}
+.about-image {
+  margin-top: 20rpx;
+  height: 300rpx;
+  width: 300rpx;
+}
+
+.about-font {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 40rpx;
+  color: #8c8c8c;
+}
+.cell {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 30rpx;
 }

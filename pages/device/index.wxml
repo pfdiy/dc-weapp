@@ -1,0 +1,4 @@
+<!--pages/device/index.wxml-->
+<view>
+  <device />
+</view>
