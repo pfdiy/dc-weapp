@@ -1,2 +1,28 @@
 <!--components/device/index.wxml-->
-<text>components/device/index.wxml</text>
+<view class="container">
+
+    <view class="loading">
+        <view class="circle">
+            <view class="wave"></view>
+        </view>
+        <view class="font"><text>70%</text></view>
+    </view>
+
+    <view class="state">
+        <view class="state-font">
+            <view class="state-font-text">
+                <text class="state-font-text-size">当前里程(km)</text>
+                <text class="state-font-text-bolder">76.65</text>
+            </view>
+            <view class="state-font-text">
+                <text class="state-font-text-size">总电压值(v)</text>
+                <text class="state-font-text-bolder">76.65</text>
+            </view>
+            <view class="state-font-text">
+                <text class="state-font-text-size">电池温度(℃)</text>
+                <text class="state-font-text-bolder">76.65</text>
+            </view>
+        </view>
+    </view>
+    <view class="map"></view>
+</view>
