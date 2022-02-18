@@ -24,5 +24,21 @@
             </view>
         </view>
     </view>
-    <view class="map"></view>
+    <view class="map">
+        <view class="map-font">
+            <view class="map-font-flex">
+                <text class="map-font-text">GPS</text>
+                <image class="map-image" src="/static/xinhao.png"></image>
+            </view>
+            <view class="map-font-flex">
+                <text class="map-font-text">GSM</text>
+                <image class="map-image" src="/static/xinhao.png"></image>
+            </view>
+        </view>
+        <map class="map-view"></map>
+        <view>
+            <image class="map-image" src="/static/xinhao.png"></image>
+            <text class="map-font-text">内蒙古赤峰市巴林左旗桥北物流园区03-01</text>
+        </view>
+    </view>
 </view>
