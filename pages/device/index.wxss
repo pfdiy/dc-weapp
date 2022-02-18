@@ -1,1 +1,4 @@
 /* pages/device/index.wxss */
+page{
+    background-color: #ececec;
+}
