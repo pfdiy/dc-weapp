@@ -6,6 +6,7 @@
             <view class="wave"></view>
         </view>
         <view class="font"><text>70%</text></view>
+        <view class="font-state"><text>行驶中</text></view>
     </view>
 
     <view class="state">
@@ -28,17 +29,36 @@
         <view class="map-font">
             <view class="map-font-flex">
                 <text class="map-font-text">GPS</text>
-                <image class="map-image" src="/static/xinhao.png"></image>
+                <image class="map-image" src="/static/xinhao-up.png"></image>
             </view>
             <view class="map-font-flex">
                 <text class="map-font-text">GSM</text>
-                <image class="map-image" src="/static/xinhao.png"></image>
+                <image class="map-image" src="/static/xinhao-down.png"></image>
             </view>
         </view>
         <map class="map-view"></map>
-        <view>
-            <image class="map-image" src="/static/xinhao.png"></image>
-            <text class="map-font-text">内蒙古赤峰市巴林左旗桥北物流园区03-01</text>
+        <view class="map-font-flex-down">
+            <image class="map-image-down" src="/static/gps.png"></image>
+            <text class="map-font-text-down">内蒙古赤峰市巴林左旗桥北物流园区03-01</text>
+        </view>
+    </view>
+    <view class="map-bottom">
+        <view class="map-bottom-view">
+            <text class="map-bottom-view-text">电池信息</text>
+            <image class="map-bottom-view-image" src="/static/dianchi.png"></image>
+        </view>
+
+        <view class="map-bottom-view">
+            <text class="map-bottom-view-text">里程统计</text>
+            <image class="map-bottom-view-image" src="/static/xiangqing.png"></image>
+        </view>
+        <view class="map-bottom-view">
+            <text class="map-bottom-view-text">报警信息</text>
+            <image class="map-bottom-view-image" src="/static/baojing.png"></image>
+        </view>
+        <view class="map-bottom-view">
+            <text class="map-bottom-view-text">远程控制</text>
+            <image class="map-bottom-view-image" src="/static/yuancheng.png"></image>
         </view>
     </view>
 </view>
