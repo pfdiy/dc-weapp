@@ -37,6 +37,13 @@
           "name": "",
           "pathName": "pages/device/index",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/state/index",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

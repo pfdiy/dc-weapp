@@ -1,0 +1,47 @@
+<!--components/state/index.wxml-->
+
+<view class="container">
+  <view class="state-basic">
+    <!-- <text class="state-title">基础信息</text> -->
+    <view class="state-l">
+      <text class="l">SOC：</text>
+      <text class="r">74%</text>
+    </view>
+    <view class="state-l">
+      <text class="l">GPS总里程：</text>
+      <text class="r">427.7km</text>
+    </view>
+    <view class="state-l">
+      <text class="l">总电压：</text>
+      <text class="r">54.2V</text>
+    </view>
+    <view class="state-l">
+      <text class="l">MOS温度：</text>
+      <text class="r">16%</text>
+    </view>
+    <view class="state-l">
+      <text class="l">电芯温度：</text>
+      <text class="r">1%</text>
+    </view>
+    <view class="state-l">
+      <text class="l">平均电压：</text>
+      <text class="r">3.8755V</text>
+    </view>
+    <view class="state-l">
+      <text class="l">充电管状态：</text>
+      <text class="r">1</text>
+    </view>
+    <view class="state-l">
+      <text class="l">GSM信号：</text>
+      <text class="r">良好（20）</text>
+    </view>
+    <view class="state-l">
+      <text class="l">警告状态：</text>
+      <text class="r">正常</text>
+    </view>
+    <view class="state-l">
+      <text class="l">平均电压：</text>
+      <text class="r">3.8755V</text>
+    </view>
+  </view>
+</view>

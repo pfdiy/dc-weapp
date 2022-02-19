@@ -141,7 +141,7 @@
 }
 
 .map-view {
-  width: 685rpx;
+  width: 700rpx;
   height: 340rpx;
   padding: 10rpx;
 }

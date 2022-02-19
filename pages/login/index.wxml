@@ -14,7 +14,7 @@
     <van-tabs animated title-active-color="#1890ff" color="#1890ff">
       <van-tab title="骑手端">
         <view class="login-tab-item">
-          <image src="/static/01.png"></image>
+          <image src="/static/login.png"></image>
           <van-button round color="#1890ff">
             微信一键登录
           </van-button>
@@ -22,7 +22,7 @@
       </van-tab>
       <van-tab title="员工端">
         <view class="login-tab-item">
-          <image src="/static/01.png"></image>
+          <image src="/static/login.png"></image>
           <van-button round color="#1890ff">
             微信一键登录
           </van-button>
@@ -30,7 +30,7 @@
       </van-tab>
       <van-tab title="管理员">
         <view class="login-tab-item">
-          <image src="/static/01.png"></image>
+          <image src="/static/login.png"></image>
           <van-button round color="#1890ff">
             微信一键登录
           </van-button>

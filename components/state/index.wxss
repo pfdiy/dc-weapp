@@ -1,0 +1,38 @@
+/* components/state/index.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.state-basic {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  width: 700rpx;
+  height: 180rpx;
+  border-radius: 15rpx;
+  background-color: #ffffff;
+  padding: 20rpx;
+}
+
+.state-title {
+  font-size: 30rpx;
+  color: #1890ff;
+  margin-left: 30rpx;
+}
+.state-l {
+  display: flex;
+  height: 40rpx;
+  width: 350rpx;
+}
+.l {
+  width: 150rpx;
+  text-align: right;
+  font-size: 24rpx;
+}
+.r {
+  font-size: 24rpx;
+  text-align: right;
+}
