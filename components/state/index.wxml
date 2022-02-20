@@ -1,47 +1,213 @@
 <!--components/state/index.wxml-->
-
 <view class="container">
   <view class="state-basic">
-    <!-- <text class="state-title">基础信息</text> -->
+    <view class="state-title">基础信息</view>
+    <view class="state-l">
+      <text class="l">电池串数：</text>
+      <text class="r">14</text>
+    </view>
+    <view class="state-l">
+      <text class="l">设备型号：</text>
+      <text class="r">48V</text>
+    </view>
+  </view>
+  <view class="state-monitor">
+    <view class="state-title">监控数据</view>
     <view class="state-l">
       <text class="l">SOC：</text>
       <text class="r">74%</text>
-    </view>
-    <view class="state-l">
-      <text class="l">GPS总里程：</text>
-      <text class="r">427.7km</text>
     </view>
     <view class="state-l">
       <text class="l">总电压：</text>
       <text class="r">54.2V</text>
     </view>
     <view class="state-l">
-      <text class="l">MOS温度：</text>
-      <text class="r">16%</text>
-    </view>
-    <view class="state-l">
-      <text class="l">电芯温度：</text>
-      <text class="r">1%</text>
+      <text class="l">GPS总里程：</text>
+      <text class="r">427.7km</text>
     </view>
     <view class="state-l">
       <text class="l">平均电压：</text>
-      <text class="r">3.8755V</text>
+      <text class="r">3.87766V</text>
+    </view>
+    <view class="state-l">
+      <text class="l">MOS温度：</text>
+      <text class="r">19 ℃</text>
+    </view>
+    <view class="state-l">
+      <text class="l">电芯温度：</text>
+      <text class="r">32 ℃</text>
+    </view>
+    <view class="state-l">
+      <text class="l">总电流：</text>
+      <text class="r">0.00A</text>
+    </view>
+    <view class="state-l">
+      <text class="l">速度：</text>
+      <text class="r">---</text>
+    </view>
+    <view class="state-l">
+      <text class="l">循环次数：</text>
+      <text class="r">65次</text>
+    </view>
+    <view class="state-l">
+      <text class="l">环境温度：</text>
+      <text class="r">16 ℃</text>
+    </view>
+  </view>
+  <view class="state-Battery">
+    <view class="state-title">电池数据</view>
+    <view class="state-l">
+      <text class="l">电池状态：</text>
+      <text class="r">搁置</text>
+    </view>
+    <view class="state-l">
+      <text class="l">4G信号：</text>
+      <text class="r">正常</text>
+    </view>
+    <view class="state-l">
+      <text class="l">放电管状态：</text>
+      <text class="r">开启</text>
+    </view>
+    <view class="state-l">
+      <text class="l">充电开关：</text>
+      <text class="r">关闭</text>
     </view>
     <view class="state-l">
       <text class="l">充电管状态：</text>
-      <text class="r">1</text>
-    </view>
-    <view class="state-l">
-      <text class="l">GSM信号：</text>
-      <text class="r">良好（20）</text>
+      <text class="r">开启</text>
     </view>
     <view class="state-l">
       <text class="l">警告状态：</text>
       <text class="r">正常</text>
     </view>
     <view class="state-l">
-      <text class="l">平均电压：</text>
-      <text class="r">3.8755V</text>
+      <text class="l">放电开关：</text>
+      <text class="r">关闭</text>
+    </view>
+  </view>
+  <view class="state-Monomer">
+    <view class="state-title">电池单体电压</view>
+    <view class="state-Monomer-flex">
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-blue.png"></image>
+        <text class="monomer-text">1</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-red.png"></image>
+        <text class="monomer-text">2</text>
+        <text class="monomer-text-dwon">3.779</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">3</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">4</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">5</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-red.png"></image>
+        <text class="monomer-text">6</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">7</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">8</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">9</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-red.png"></image>
+        <text class="monomer-text">10</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">11</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">12</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">13</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">14</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-blue.png"></image>
+        <text class="monomer-text">15</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">16</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-red.png"></image>
+        <text class="monomer-text">17</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">18</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">18</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">19</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">20</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-blue.png"></image>
+        <text class="monomer-text">21</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery-blue.png"></image>
+        <text class="monomer-text">22</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
+      <view class="state-Monomer-view">
+        <image class="monomer-image" src="/static/battery.png"></image>
+        <text class="monomer-text">23</text>
+        <text class="monomer-text-dwon">3.679</text>
+      </view>
     </view>
   </view>
 </view>
