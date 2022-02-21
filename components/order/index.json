@@ -1,8 +1,9 @@
 {
   "component": true,
   "usingComponents": {
+    "tabbar":"/components/tabbar/index",
     "van-cell": "@vant/weapp/cell/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
-    "tabbar":"/components/tabbar/index"
+    "van-tag": "@vant/weapp/tag/index"
   }
 }

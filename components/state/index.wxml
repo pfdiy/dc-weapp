@@ -14,75 +14,71 @@
   <view class="state-monitor">
     <view class="state-title">监控数据</view>
     <view class="state-l">
-      <text class="l">SOC：</text>
-      <text class="r">74%</text>
+      <text class="l">剩余流量：</text>
+      <text class="r">43.9 AH</text>
     </view>
     <view class="state-l">
       <text class="l">总电压：</text>
       <text class="r">54.2V</text>
     </view>
     <view class="state-l">
-      <text class="l">GPS总里程：</text>
-      <text class="r">427.7km</text>
+      <text class="l">电流数据：</text>
+      <text class="r">-12.601 A</text>
+    </view>
+    <view class="state-l">
+      <text class="l">最低电压：</text>
+      <text class="r">4.038 V</text>
+    </view>
+    <view class="state-l">
+      <text class="l">最高电压：</text>
+      <text class="r">4.062 V</text>
+    </view>
+    <view class="state-l">
+      <text class="l">相差电压：</text>
+      <text class="r">0.024 V</text>
     </view>
     <view class="state-l">
       <text class="l">平均电压：</text>
-      <text class="r">3.87766V</text>
+      <text class="r">4.05 V</text>
     </view>
     <view class="state-l">
-      <text class="l">MOS温度：</text>
-      <text class="r">19 ℃</text>
-    </view>
-    <view class="state-l">
-      <text class="l">电芯温度：</text>
-      <text class="r">32 ℃</text>
-    </view>
-    <view class="state-l">
-      <text class="l">总电流：</text>
-      <text class="r">0.00A</text>
-    </view>
-    <view class="state-l">
-      <text class="l">速度：</text>
-      <text class="r">---</text>
-    </view>
-    <view class="state-l">
-      <text class="l">循环次数：</text>
-      <text class="r">65次</text>
-    </view>
-    <view class="state-l">
-      <text class="l">环境温度：</text>
-      <text class="r">16 ℃</text>
+      <text class="l">温度：</text>
+      <text class="r">-10 °</text>
     </view>
   </view>
   <view class="state-Battery">
     <view class="state-title">电池数据</view>
     <view class="state-l">
-      <text class="l">电池状态：</text>
-      <text class="r">搁置</text>
+      <text class="l">功率：</text>
+      <text class="r">1.02KW</text>
     </view>
     <view class="state-l">
-      <text class="l">4G信号：</text>
-      <text class="r">正常</text>
+      <text class="l">剩余容量：</text>
+      <text class="r">87.8 %</text>
     </view>
     <view class="state-l">
-      <text class="l">放电管状态：</text>
+      <text class="l">充电MOS：</text>
       <text class="r">开启</text>
     </view>
     <view class="state-l">
-      <text class="l">充电开关：</text>
-      <text class="r">关闭</text>
-    </view>
-    <view class="state-l">
-      <text class="l">充电管状态：</text>
+      <text class="l">放电MOS：</text>
       <text class="r">开启</text>
     </view>
     <view class="state-l">
-      <text class="l">警告状态：</text>
-      <text class="r">正常</text>
+      <text class="l">充电状态：</text>
+      <text class="r">放电</text>
     </view>
     <view class="state-l">
-      <text class="l">放电开关：</text>
+      <text class="l">均衡开闭：</text>
       <text class="r">关闭</text>
+    </view>
+    <view class="state-l">
+      <text class="l">循环次数：</text>
+      <text class="r">121次</text>
+    </view>
+    <view class="state-l">
+      <text class="l">连接状态：</text>
+      <text class="r">已连接</text>
     </view>
   </view>
   <view class="state-Monomer">

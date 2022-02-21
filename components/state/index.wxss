@@ -95,6 +95,7 @@
   height: 70rpx;
   font-size: 24rpx;
 }
+
 .monomer-text-dwon {
   margin-top: 71rpx;
   display: flex;
