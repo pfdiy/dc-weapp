@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "scan":"/components/scan/index"
+  }
+}

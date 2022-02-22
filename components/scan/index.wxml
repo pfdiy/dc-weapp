@@ -1,0 +1,9 @@
+<!--components/scan/index.wxml-->
+
+<view class="container">
+  <view class="map-button">
+    <van-button icon="/static/scan.png" round type="primary">扫一扫</van-button>
+    <view class="map-button1"></view>
+  </view>
+  <map class="map-view"></map>
+</view>

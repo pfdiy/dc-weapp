@@ -1,30 +1,30 @@
 /* components/order/index.wxss */
 
-.container{
+.container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.order-cell{
+.order-cell {
   width: 100%;
   margin-bottom: 20rpx;
 }
-.order-view{
+.order-view-up {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.order-text{
-font-size: 26rpx;
-padding-left: 20rpx;
+.order-text {
+  font-size: 26rpx;
+  padding-left: 20rpx; 
 }
-.order-view1{
+.order-view-down {
   display: flex;
   flex-direction: column;
 }
-.sf{
+.order-view-down-text {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
