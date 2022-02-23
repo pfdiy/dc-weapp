@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "order-list":"/components/order-list/index",
+    "van-search": "@vant/weapp/search/index"
+  },
+  "navigationBarBackgroundColor": "#1890ff"
+}

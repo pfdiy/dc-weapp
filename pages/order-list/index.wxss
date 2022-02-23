@@ -1,0 +1,4 @@
+/* pages/order-list/index.wxss */
+page{
+  background-color: #ececec;
+}

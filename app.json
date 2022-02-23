@@ -5,13 +5,13 @@
     "pages/order/index",
     "pages/device/index",
     "pages/state/index",
-    "pages/scan/index"
+    "pages/scan/index",
+    "pages/order-list/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

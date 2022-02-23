@@ -1,0 +1,29 @@
+/* components/order-list/index.wxss */
+
+.container {
+  width: 100%;
+}
+
+.order-view {
+  display: flex;
+  background-color: tomato;
+  width: 100%;
+  height: 400rpx;
+  justify-content: center;
+  align-items: center;
+}
+.view2 {
+  padding: 15rpx;
+  width: 660rpx;
+  height: 300rpx;
+  background-color: #ffffff;
+  border-radius: 15rpx;
+}
+.sf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sf-text {
+ width: 500rpx;
+}
