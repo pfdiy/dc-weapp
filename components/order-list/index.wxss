@@ -3,27 +3,37 @@
 .container {
   width: 100%;
 }
-
-.order-view {
+.state-basic {
   display: flex;
-  background-color: tomato;
-  width: 100%;
-  height: 400rpx;
-  justify-content: center;
-  align-items: center;
-}
-.view2 {
-  padding: 15rpx;
-  width: 660rpx;
-  height: 300rpx;
-  background-color: #ffffff;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
   border-radius: 15rpx;
+  background-color: #ffffff;
+  padding: 20rpx;
 }
-.sf {
+
+.state-l {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  height: 40rpx;
+  width: 330rpx;
 }
-.sf-text {
- width: 500rpx;
+
+.l {
+  width: 165rpx;
+  text-align: right;
+  font-size: 27rpx;
+}
+
+.r {
+  width: 165rpx;
+  font-size: 27rpx;
+}
+.state-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24rpx;
+  color: #1890ff;
+  margin-left: 30rpx;
+  width: 100%;
 }
