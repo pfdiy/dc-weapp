@@ -8,21 +8,34 @@
   <view>
     <van-tabs title-active-color="#1890ff" color="#1890ff" sticky animated>
       <van-tab info="475" title="全部">
-        <view class="order-view">
-          <view class="view2">
-            <view class="sf">
-              <text class="sf-text">编码：123123123123</text>
-              <van-tag type="success" size="medium">在线</van-tag>
-              <van-tag type="success" size="medium">通电</van-tag>
-            </view>
-            
-            <view>用户id：777</view>
-            <view>产品型号：60V120A两轮外卖</view>
-            <view>租赁人：蔡徐坤</view>
-            <view>电话：1383838438</view>
-            <view>单位：饿了么</view>
+        <view class="state-basic">
+          <view class="state-title">
+            <text>编码：XN2022011200298DLF</text>
+            <text>型号：60V120A两轮外卖</text>
+          </view>
+          <view class="state-l">
+            <text class="l">用户 ID：</text>
+            <text class="r">14</text>
+          </view>
+          <view class="state-l">
+            <text class="l">租赁状态：</text>
+            <text class="r">在租</text>
+          </view>
+
+          <view class="state-l">
+            <text class="l">用户姓名：</text>
+            <text class="r">蔡徐坤</text>
+          </view>
+          <view class="state-l">
+            <text class="l">用户电话：</text>
+            <text class="r">1383838438</text>
+          </view>
+          <view class="state-l">
+            <text class="l">用户单位：</text>
+            <text class="r">饿了么</text>
           </view>
         </view>
+
       </van-tab>
       <van-tab info="375" title="在线">内容 2</van-tab>
       <van-tab info="100" title="离线">内容 3</van-tab>
