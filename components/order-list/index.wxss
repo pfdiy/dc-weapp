@@ -3,37 +3,9 @@
 .container {
   width: 100%;
 }
-.state-basic {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20rpx;
-  border-radius: 15rpx;
-  background-color: #ffffff;
-  padding: 20rpx;
-}
-
-.state-l {
-  display: flex;
-  align-items: center;
-  height: 40rpx;
-  width: 330rpx;
-}
-
-.l {
-  width: 165rpx;
-  text-align: right;
-  font-size: 27rpx;
-}
-
-.r {
-  width: 165rpx;
-  font-size: 27rpx;
-}
-.state-title {
-  display: flex;
-  justify-content: space-around;
-  font-size: 24rpx;
+.search-text {
   color: #1890ff;
-  margin-left: 30rpx;
-  width: 100%;
+}
+.van-info {
+  background-color: #1890ff;
 }
