@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "rental":"/components/rental/index"
+  }
+}

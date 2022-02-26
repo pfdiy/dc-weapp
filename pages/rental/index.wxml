@@ -1,0 +1,4 @@
+<!--pages/rental/index.wxml-->
+<view>
+<rental />
+</view>

@@ -8,7 +8,356 @@
   <view>
     <van-tabs title-active-color="#1890ff" color="#1890ff" sticky animated>
       <van-tab info="475" title="全部">
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
 
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>温度：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
+        <view class="card">
+          <view class="card-view">
+          <view class="card-view-up">
+          <text>编码：XN2022011200305DLF</text>
+          <text>GPS：016880354632</text>
+          </view>
+          <van-divider class="w">
+            </van-divider>
+            <image class="card-view-images" src="/static/lidianchi.png"></image>
+            <view class="card-view-text">
+              <text>U ID：679</text>
+              <text>姓名：蔡徐坤</text>
+              <text>电话：1383838438</text>
+              <text>单位：美团</text>
+              <text>里程：54 km</text>
+              <text>电压：58 V</text>
+              <text>开始时间：2022/2/26</text>
+
+            </view>
+            <view class="card-view-text">
+              <text>状态：在线</text>
+              <text>租赁：已租</text>
+              <text>电量：98%</text>
+              <text>更新：19 ℃</text>
+              <text>型号：72V52A两轮外卖版</text>
+              <text>地址：地址</text>
+              <text>到期时间：2022/3/26</text>
+            </view>
+            <van-divider class="w">
+            </van-divider>
+            <view class="card-grid">
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/zu.png">1</image>
+            <text class="card-grid-view-text">出租</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ti.png">1</image>
+            <text class="card-grid-view-text">替换</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/huan.png">1</image>
+            <text class="card-grid-view-text">归还</text>
+            </view>
+            <view class="card-grid-view">
+            <image class="card-grid-view-images" src="/static/ding.png">1</image>
+            <text class="card-grid-view-text">定位</text>
+            </view>
+            </view>
+          </view>
+        </view>
       </van-tab>
       <van-tab info="375" title="在线">内容 2</van-tab>
       <van-tab info="100" title="离线">内容 3</van-tab>
