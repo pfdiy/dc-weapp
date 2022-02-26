@@ -1,31 +1,32 @@
 // components/rental/index.js
+import { areaList } from "@vant/area-data";
 Component({
-    /**
-     * 组件的属性列表
-     */
-    properties: {
+  /**
+   * 组件的属性列表
+   */
+  properties: {},
 
+  /**
+   * 组件的初始数据
+   */
+  data: {
+    show: false,
+    areaList,
+    fileList: [{}],
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    showPopup() {
+      this.setData({ show: true });
+      console.log(111);
     },
 
-    /**
-     * 组件的初始数据
-     */
-    data: {
-        fileList: [
-          {
-          
-          },
-        ],
-      },
-
-    /**
-     * 组件的方法列表
-     */
-    methods: {
-        onChange(event) {
-            // event.detail 为当前输入的值
-            console.log(event.detail);
-          },
-       
-    }
-})
+    onClose() {
+      this.setData({ show: false });
+      console.log(222);
+    },
+  },
+});

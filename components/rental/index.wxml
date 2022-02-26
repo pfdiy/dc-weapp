@@ -11,42 +11,48 @@
           </van-button>
         </van-field>
       </van-cell-group>
-        <view class="rental-upload">
+      <view class="rental-upload">
         <view class="rental-title-flex">
-        <text class="rental-title">实名认证</text>
-        <text></text>
+          <text class="rental-title">实名认证</text>
+          <text></text>
         </view>
-          <view class="rental-upload-flex">
+        <view class="rental-upload-flex">
           <view class="rental-upload-text">
-          <text>身份证国徽面</text>
-          <text class="rental-upload-text-color">点击上传/更换</text>
-        </view>
-            <van-uploader>
-              <image class="rental-upload-images" src="/static/zhengmian.png"></image>
-            </van-uploader>
+            <text>身份证国徽面</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
           </view>
-          <view class="rental-upload-flex">
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/zhengmian.png"></image>
+          </van-uploader>
+        </view>
+        <view class="rental-upload-flex">
           <view class="rental-upload-text">
-          <text>身份证人像面</text>
-          <text class="rental-upload-text-color">点击上传/更换</text>
-        </view>
-            <van-uploader>
-              <image class="rental-upload-images" src="/static/guohui.png"></image>
-            </van-uploader>
+            <text>身份证人像面</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
           </view>
-          <view class="rental-upload-flex">
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/guohui.png"></image>
+          </van-uploader>
+        </view>
+        <view class="rental-upload-flex">
           <view class="rental-upload-text">
-          <text>人脸核验</text>
-          <text class="rental-upload-text-color">点击上传/更换</text>
-        </view>
-            <van-uploader>
-              <image class="rental-upload-images" src="/static/renlian.png"></image>
-            </van-uploader>
+            <text>人脸核验</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
           </view>
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/renlian.png"></image>
+          </van-uploader>
         </view>
-        
+      </view>
+      <van-cell safe-area-inset-bottom class="sdsd" title="请选择" is-link bind:click="showPopup" />
+
+      <van-popup position="bottom" show="{{ show }}" bind:close="onClose">
+
+        <van-area visible-item-count="4" item-height="30" title="请选择地址" area-list="{{ areaList }}" />
+
+      </van-popup>
 
     </van-cell-group>
-
   </view>
+
 </view>

@@ -1,0 +1,19 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@vant/area-data': ^1.2.2
+  '@vant/weapp': ^1.10.2
+
+dependencies:
+  '@vant/area-data': 1.2.2
+  '@vant/weapp': 1.10.2
+
+packages:
+
+  /@vant/area-data/1.2.2:
+    resolution: {integrity: sha512-efv7Yl/OTHjyy0irhJJPtgZb5mJZmroEtVOa8vkGRNTLY93+NgEcVuIBaC35hYCMsTrPHDQRvQGnI9Hyhtto0Q==}
+    dev: false
+
+  /@vant/weapp/1.10.2:
+    resolution: {integrity: sha512-caqA0xQxM4lMRncFsRPPVMDdEzUBCJ4xdFXuKReXpEU3qwnVIP/WIjVDIi7mWyS7xqz8C9WfSW5JL4PrlSq31w==}
+    dev: false
