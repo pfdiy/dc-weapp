@@ -1,17 +1,18 @@
 {
-  "pages": [
-    "pages/login/index",
-    "pages/about/index",
-    "pages/order/index",
-    "pages/device/index",
-    "pages/state/index",
-    "pages/scan/index",
-    "pages/order-list/index"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/login/index",
+        "pages/about/index",
+        "pages/order/index",
+        "pages/device/index",
+        "pages/state/index",
+        "pages/scan/index",
+        "pages/order-list/index",
+        "pages/rental/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
 }

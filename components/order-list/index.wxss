@@ -3,9 +3,74 @@
 .container {
   width: 100%;
 }
+
 .search-text {
   color: #1890ff;
 }
+
 .van-info {
   background-color: #1890ff;
+}
+.van-divider{
+  margin: 14rpx;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-view {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 660rpx;
+  background-color: white;
+  border-radius: 15rpx;
+  padding: 20rpx;
+}
+
+.card-view-images {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.card-view-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+  text-align: left;
+}
+.w{
+  width: 100%;
+}
+.card-grid{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.card-grid-view{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+}
+.card-grid-view-images{
+  margin-top: 6rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.card-grid-view-text{
+  margin-top: 8rpx;
+  font-size: 28rpx;
+}
+
+.card-view-up{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 26rpx;
 }
