@@ -28,5 +28,8 @@ Component({
       this.setData({ show: false });
       console.log(222);
     },
+    onChange(event) {
+      console.log(event.detail);
+    },
   },
 });
