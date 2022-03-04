@@ -1,7 +1,10 @@
 {
   "usingComponents": {
     "order-list":"/components/order-list/index",
-    "van-search": "@vant/weapp/search/index"
+    "van-search": "@vant/weapp/search/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-cell": "@vant/weapp/cell/index"
   },
   "navigationBarBackgroundColor": "#1890ff"
 }

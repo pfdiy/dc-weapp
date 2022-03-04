@@ -1,5 +1,20 @@
 <!--pages/order-list/index.wxml-->
-
-<view>
-<order-list />
+<view class="container">
+  <view>
+    <van-search value="{{ value }}" placeholder="请输入" use-action-slot bind:change="onChange" bind:search="onSearch">
+      <view class="search-text" slot="action" bind:tap="onClick">搜索</view>
+    </van-search>
+  </view>
+  <view>
+    <van-tabs title-active-color="#1890ff" color="#1890ff" sticky animated>
+      <van-tab info="475" title="全部">
+        <block wx:for="{{res}}" wx:key="index">
+          <order-list res="{{item}}" />
+        </block>
+      </van-tab>
+      <van-tab info="375" title="在线">内容 2</van-tab>
+      <van-tab info="100" title="离线">内容 3</van-tab>
+      <van-tab info="12" title="到期">内容 4</van-tab>
+    </van-tabs>
+  </view>
 </view>
