@@ -11,7 +11,8 @@
 .van-info {
   background-color: #1890ff;
 }
-.van-divider{
+
+.van-divider {
   margin: 14rpx;
 }
 
@@ -43,34 +44,50 @@
   font-size: 24rpx;
   text-align: left;
 }
-.w{
+
+.w {
   width: 100%;
 }
-.card-grid{
+
+.card-grid {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
-.card-grid-view{
+
+.card-grid-view {
 
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 24rpx;
 }
-.card-grid-view-images{
+
+.card-grid-view-images {
   margin-top: 6rpx;
   width: 60rpx;
   height: 60rpx;
 }
-.card-grid-view-text{
+
+.card-grid-view-text {
   margin-top: 8rpx;
   font-size: 28rpx;
 }
 
-.card-view-up{
+.card-view-up {
   width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 26rpx;
+}
+
+.status-down{
+  color: #ff4d4f;
+}
+.status-up{
+  color: #52c41a;
+}
+
+.dialog{
+  height: 50rpx;
 }

@@ -15,10 +15,30 @@ Component({
   /**
    * 组件的初始数据
    */
-  data: {},
+  data: {
+
+    show: false,
+  },
+
+
 
   /**
    * 组件的方法列表
    */
-  methods: {},
+  methods: {
+    getUserInfo(event) {
+      this.setData({ show: true });
+    },
+    onClose() {
+      this.setData({ show: false });
+    },
+
+    view1click: function (event) {
+      
+      const pid = event.currentTarget.dataset.id
+      console.log(pid)
+    },
+
+  
+  },
 });

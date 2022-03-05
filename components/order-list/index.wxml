@@ -19,11 +19,20 @@
 
     </view>
     <view class="card-view-text">
-      <text>状态：在线</text>
-      <text>租赁：已租</text>
+      <view wx:if="{{res.rental_status == '1'}}"> <text>状态：<text class="status-up">在线</text></text></view>
+      <view wx:else><text>状态：<text class="status-down">离线</text></text></view>
+
+      <view wx:if="{{res.gps_status == '1'}}"> <text>租赁：<text class="status-up">已租</text></text></view>
+      <view wx:else><text>租赁：<text class="status-down">未租</text></text></view>
       <text>电量：{{res.electric}} %</text>
       <text>温度：{{res.temperature}} ℃</text>
-      <text>型号：点击查看</text>
+      <text data-id="{{res.rental_id}}" bindtap="getUserInfo">型号：点击查看</text>
+
+      <van-dialog showConfirmButton="{{false}}" closeOnClickOverlay="{{true}}" use-slot show="{{ show }}">
+        <view class="dialog">{{res.shuiguo.code}}</view>
+      </van-dialog>
+
+
       <text>地址：点击查看</text>
       <text>到期时间：{{res.end_time}}</text>
     </view>
