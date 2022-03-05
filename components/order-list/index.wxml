@@ -26,14 +26,15 @@
       <view wx:else><text>租赁：<text class="status-down">未租</text></text></view>
       <text>电量：{{res.electric}} %</text>
       <text>温度：{{res.temperature}} ℃</text>
-      <text data-id="{{res.rental_id}}" bindtap="getUserInfo">型号：点击查看</text>
 
-      <van-dialog showConfirmButton="{{false}}" closeOnClickOverlay="{{true}}" use-slot show="{{ show }}">
-        <view class="dialog">{{res.shuiguo.code}}</view>
+      <text bindtap="getAddress">型号：点击查看</text>
+
+      <text bindtap="getAddress">地址：点击查看</text>
+
+      <van-dialog confirm-button-color="#1890ff" showConfirmButton="{{true}}" closeOnClickOverlay="{{true}}" use-slot show="{{ show }}">
+        <view class="dialog">{{res.shuiguo.address}}</view>
       </van-dialog>
 
-
-      <text>地址：点击查看</text>
       <text>到期时间：{{res.end_time}}</text>
     </view>
     <van-divider class="w">

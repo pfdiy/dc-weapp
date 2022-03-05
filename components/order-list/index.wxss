@@ -56,7 +56,6 @@
 }
 
 .card-grid-view {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,13 +80,17 @@
   font-size: 26rpx;
 }
 
-.status-down{
+.status-down {
   color: #ff4d4f;
 }
-.status-up{
+.status-up {
   color: #52c41a;
 }
 
-.dialog{
-  height: 50rpx;
+.dialog {
+  padding: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100rpx;
 }

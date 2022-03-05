@@ -5,6 +5,7 @@ Page({
    */
   data: {
     res: [],
+    value: ''
   },
 
   /**
@@ -22,8 +23,23 @@ Page({
     });
   },
 
-  
+  onChange(e) {
+    console.log(e.detail)
+    this.setData({
+      value: e.detail,
+    });
+  },
+  onSearch(e) {
+    // Toast('搜索' + this.data.value);
+  },
+  onClick() {
+      let pod = this.data.value
+      console.log(pod)
+    // Toast('搜索' + this.data.value);
+  },
 
+
+ 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -47,12 +63,51 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {},
+  onPullDownRefresh() {
+    wx.showLoading({
+      title: '数据刷新中..',
+    })
+    
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
+    
+    wx.request({
+      url: "https://websiteapi.usemock.com/list",
+      success: (res) => {
+        console.log(res.data.data);
+        this.setData({
+          res: res.data.data,
+        });
+        wx.stopPullDownRefresh()
+      },
+    });
+  },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {},
+  onReachBottom: function () {
+    wx.showLoading({
+      title: '数据拉取中..',
+    })
+    
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
+    
+    wx.request({
+      url: "https://websiteapi.usemock.com/list",
+      success: (res) => {
+        console.log(res.data.data);
+        this.setData({
+          res: res.data.data,
+        });
+        wx.stopPullDownRefresh()
+      },
+    });
+
+  },
 
   /**
    * 用户点击右上角分享

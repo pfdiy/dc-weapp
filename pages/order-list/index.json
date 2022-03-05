@@ -6,5 +6,6 @@
     "van-tabs": "@vant/weapp/tabs/index",
     "van-cell": "@vant/weapp/cell/index"
   },
-  "navigationBarBackgroundColor": "#1890ff"
+  "navigationBarBackgroundColor": "#1890ff",
+  "enablePullDownRefresh": true
 }

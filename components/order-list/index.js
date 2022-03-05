@@ -6,6 +6,7 @@ Component({
 
   options: {
     styleIsolation: "shared",
+    multipleSlots: true,
   },
 
   properties: {
@@ -16,29 +17,19 @@ Component({
    * 组件的初始数据
    */
   data: {
-
     show: false,
   },
-
-
 
   /**
    * 组件的方法列表
    */
   methods: {
-    getUserInfo(event) {
+    getAddress(event) {
       this.setData({ show: true });
+      console.log(event);
+      const pid = event.currentTarget.dataset.id;
+      console.log(pid);
     },
-    onClose() {
-      this.setData({ show: false });
-    },
-
-    view1click: function (event) {
-      
-      const pid = event.currentTarget.dataset.id
-      console.log(pid)
-    },
-
-  
   },
+  
 });
