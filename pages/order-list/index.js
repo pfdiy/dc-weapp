@@ -5,9 +5,9 @@ Page({
    */
   data: {
     res: [],
-    value: '',
+    value: "",
     searchResult: false,
-    searchData: []
+    searchData: [],
   },
 
   /**
@@ -26,36 +26,49 @@ Page({
   },
 
   onChange(e) {
-    console.log(e.detail)
+    console.log(e.detail);
     this.setData({
       value: e.detail,
     });
   },
-  onSearch() {
+  onCancel() {
+    this.setData({
+      searchResult: false,
+    });
 
-    // Toast('搜索' + this.data.value);
   },
   onClick() {
-    this.setData({
-      searchResult: true
-    })
-    let pod = this.data.value
-    console.log(pod)
-    wx.request({
-      url: 'http://t.talelin.com/v2/movie/search',
-      data: {
-        q: pod
-      },
-      success: (res) => {
-        this.setData({
-          searchData: res.data.subjects
-        });
-      }
-    })
+    let pod = this.data.value;
+    console.log(pod);
+
+    if (pod == "") {
+      wx.request({
+        url: "https://websiteapi.usemock.com/list",
+        success: (res) => {
+          console.log(res.data.data);
+          this.setData({
+            res: res.data.data,
+          });
+        },
+      });
+    } else {
+      this.setData({
+        searchResult: true,
+        value:""
+      });
+      wx.request({
+        url: "http://t.talelin.com/v2/movie/search",
+        data: {
+          q: pod,
+        },
+        success: (res) => {
+          this.setData({
+            searchData: res.data.subjects,
+          });
+        },
+      });
+    }
   },
-
-
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -82,12 +95,12 @@ Page({
    */
   onPullDownRefresh() {
     wx.showLoading({
-      title: '数据刷新中..',
-    })
+      title: "数据刷新中..",
+    });
 
     setTimeout(function () {
-      wx.hideLoading()
-    }, 2000)
+      wx.hideLoading();
+    }, 2000);
 
     wx.request({
       url: "https://websiteapi.usemock.com/list",
@@ -96,7 +109,7 @@ Page({
         this.setData({
           res: res.data.data,
         });
-        wx.stopPullDownRefresh()
+        wx.stopPullDownRefresh();
       },
     });
   },
@@ -106,12 +119,12 @@ Page({
    */
   onReachBottom: function () {
     wx.showLoading({
-      title: '数据拉取中..',
-    })
+      title: "数据拉取中..",
+    });
 
     setTimeout(function () {
-      wx.hideLoading()
-    }, 2000)
+      wx.hideLoading();
+    }, 2000);
 
     wx.request({
       url: "https://websiteapi.usemock.com/list",
@@ -120,10 +133,9 @@ Page({
         this.setData({
           res: res.data.data,
         });
-        wx.stopPullDownRefresh()
+        wx.stopPullDownRefresh();
       },
     });
-
   },
 
   /**
