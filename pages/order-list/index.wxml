@@ -8,9 +8,16 @@
   <view>
     <van-tabs title-active-color="#1890ff" color="#1890ff" sticky animated>
       <van-tab info="475" title="全部">
+      <view wx:if="{{!searchResult}}">
         <block wx:for="{{res}}" wx:key="uuid">
           <order-list res="{{item}}" />
         </block>
+      </view>
+      <view wx:else>
+        <block wx:for="{{searchData}}" wx:key="index">
+          <order-list res="{{item}}" />
+        </block>
+      </view>
       </van-tab>
       <van-tab info="375" title="在线">内容 2</van-tab>
       <van-tab info="100" title="离线">内容 3</van-tab>

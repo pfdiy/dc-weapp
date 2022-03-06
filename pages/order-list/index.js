@@ -5,7 +5,9 @@ Page({
    */
   data: {
     res: [],
-    value: ''
+    value: '',
+    searchResult: false,
+    searchData: []
   },
 
   /**
@@ -29,17 +31,32 @@ Page({
       value: e.detail,
     });
   },
-  onSearch(e) {
+  onSearch() {
+
     // Toast('搜索' + this.data.value);
   },
   onClick() {
-      let pod = this.data.value
-      console.log(pod)
-    // Toast('搜索' + this.data.value);
+    this.setData({
+      searchResult: true
+    })
+    let pod = this.data.value
+    console.log(pod)
+    wx.request({
+      url: 'http://t.talelin.com/v2/movie/search',
+      data: {
+        q: pod
+      },
+      success: (res) => {
+        this.setData({
+          searchData: res.data.subjects
+        });
+      }
+    })
   },
 
 
- 
+
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -67,11 +84,11 @@ Page({
     wx.showLoading({
       title: '数据刷新中..',
     })
-    
+
     setTimeout(function () {
       wx.hideLoading()
     }, 2000)
-    
+
     wx.request({
       url: "https://websiteapi.usemock.com/list",
       success: (res) => {
@@ -91,11 +108,11 @@ Page({
     wx.showLoading({
       title: '数据拉取中..',
     })
-    
+
     setTimeout(function () {
       wx.hideLoading()
     }, 2000)
-    
+
     wx.request({
       url: "https://websiteapi.usemock.com/list",
       success: (res) => {
