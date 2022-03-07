@@ -6,7 +6,8 @@
   </view>
   <view class="cell">
     <van-cell-group>
-      <van-cell size="large" icon="service" title="联系客服" is-link />
+      <van-cell bind:tap="PhoneCal" size="large" icon="service" title="故障报修" is-link />
+      <van-cell size="large" icon="friends" title="电子合同" is-link />
       <van-cell size="large" icon="friends" title="关于我们" is-link />
       <van-cell size="large" icon="info" title="当前版本" value="1.0.0" />
       <van-cell size="large" icon="clear" title="退出" />

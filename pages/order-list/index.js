@@ -1,4 +1,5 @@
 // pages/order-list/index.js
+const app = getApp()
 Page({
   /**
    * 页面的初始数据
@@ -54,10 +55,10 @@ Page({
     } else {
       this.setData({
         searchResult: true,
-        value:""
+        value:"",
       });
       wx.request({
-        url: "http://t.talelin.com/v2/movie/search",
+        url: app.url + 'search',
         data: {
           q: pod,
         },

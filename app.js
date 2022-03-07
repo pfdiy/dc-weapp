@@ -12,4 +12,7 @@ App({
       }
     });
   },
+
+  url:"http://t.talelin.com/v2/movie/",
+  gps:"https:api/bsm16.com/"
 });

@@ -69,3 +69,30 @@
   padding-top: 20rpx;
   padding-bottom: 20rpx;
 }
+
+.pay{
+  margin-top: 30rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+.pay-text{
+  color: #1890ff;
+  margin-left: 50rpx;
+}
+.pay-button{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pay-button-vw{
+  display: flex;
+  align-items: center;
+}

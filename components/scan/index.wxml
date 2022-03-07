@@ -2,7 +2,7 @@
 
 <view class="container">
   <view class="map-button">
-    <van-button icon="/static/scan.png" round type="primary">扫一扫</van-button>
+    <van-button bind:tap="sanCode" icon="/static/scan.png" round type="primary">扫一扫</van-button>
     <view class="map-button1"></view>
   </view>
   <view class="sf">

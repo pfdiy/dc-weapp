@@ -18,6 +18,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    sanCode(){
+      wx.scanCode({
+        success (res) {
+          console.log(res)
+        }
+      })
+    }
   }
 })
