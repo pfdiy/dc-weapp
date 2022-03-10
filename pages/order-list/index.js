@@ -1,5 +1,5 @@
 // pages/order-list/index.js
-const app = getApp()
+const app = getApp();
 Page({
   /**
    * 页面的初始数据
@@ -36,7 +36,6 @@ Page({
     this.setData({
       searchResult: false,
     });
-
   },
   onClick() {
     let pod = this.data.value;
@@ -55,10 +54,10 @@ Page({
     } else {
       this.setData({
         searchResult: true,
-        value:"",
+        value: "",
       });
       wx.request({
-        url: app.url + 'search',
+        url: app.url + "search",
         data: {
           q: pod,
         },

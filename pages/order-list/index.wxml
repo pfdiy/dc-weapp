@@ -11,7 +11,7 @@
       <van-tab info="475" title="全部">
         <view wx:if="{{!searchResult}}">
           <block wx:for="{{res}}" wx:key="uuid">
-            <order-list res="{{item}}" />
+            <order-card res="{{item}}" />
           </block>
         </view>
         <view wx:else>

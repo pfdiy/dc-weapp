@@ -1,5 +1,17 @@
 <!--pages/about/index.wxml-->
 <view class="container">
-  <about />
+  <view class="about-cell">
+    <image class="about-image" src="https://img0.baidu.com/it/u=10455628,3590936024&fm=253&fmt=auto?w=200&h=200"></image>
+    <text class="about-font">赤峰市创能新能源</text>
+  </view>
+  <view class="cell">
+    <van-cell-group>
+      <van-cell bind:tap="PhoneCal" size="large" icon="service" title="故障报修" is-link />
+      <van-cell size="large" icon="friends" title="电子合同" is-link />
+      <van-cell size="large" icon="friends" title="关于我们" is-link />
+      <van-cell size="large" icon="info" title="当前版本" value="1.0.0" />
+      <van-cell size="large" icon="clear" title="退出" />
+    </van-cell-group>
+  </view>
   <tabbar />
 </view>

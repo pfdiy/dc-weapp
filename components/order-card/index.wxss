@@ -1,4 +1,4 @@
-/* components/order-list/index.wxss */
+/* components/order-card/index.wxss */
 
 .container {
   width: 100%;

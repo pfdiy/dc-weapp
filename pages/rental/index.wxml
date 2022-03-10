@@ -1,4 +1,93 @@
 <!--pages/rental/index.wxml-->
-<view>
-<rental />
+<view class="container">
+  <view class="rental-view">
+    <van-cell-group>
+      <van-cell-group>
+        <van-field center clearable border="{{true}}" label="姓名" left-icon="manager" value="{{ value }}" placeholder="请输入姓名" bind:change="onChange" />
+        <van-field center clearable border="{{true}}" label="手机号码" type="number" left-icon="phone" value="{{ value }}" placeholder="请输入手机号码" bind:change="onChange" />
+        <van-field value="{{ sms }}" center clearable left-icon="chat" label="短信验证码" placeholder="请输入短信验证码" border="{{ false }}" use-button-slot>
+          <van-button slot="button" size="small" type="info">
+            发送验证码
+          </van-button>
+        </van-field>
+      </van-cell-group>
+      <view class="rental-upload">
+        <view class="rental-title-flex">
+          <text class="rental-title">实名认证</text>
+          <text></text>
+        </view>
+        <view class="rental-upload-flex">
+          <view class="rental-upload-text">
+            <text>身份证人像面</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
+          </view>
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/zhengmian.png"></image>
+          </van-uploader>
+        </view>
+        <view class="rental-upload-flex">
+          <view class="rental-upload-text">
+            <text>身份证国徽面</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
+          </view>
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/guohui.png"></image>
+          </van-uploader>
+        </view>
+        <view class="rental-upload-flex">
+          <view class="rental-upload-text">
+            <text>真人人脸核验</text>
+            <text class="rental-upload-text-color">点击上传/更换</text>
+          </view>
+          <van-uploader>
+            <image class="rental-upload-images" src="/static/renlian.png"></image>
+          </van-uploader>
+        </view>
+      </view>
+    </van-cell-group>
+    <view>
+      <view class="show-map">
+        <van-icon name="map-marked" />
+        <text class="show-text">详细地址</text>
+      </view>
+      <view>
+        <van-cell safe-area-inset-bottom class="sdsd" title="请选择区域" is-link bind:click="showPopup" />
+        <van-popup position="bottom" show="{{ show }}" bind:close="onClose">
+          <van-area visible-item-count="4" item-height="30" title="请选择地址" area-list="{{ areaList }}" />
+        </van-popup>
+
+        <van-field label="详细地址" value="{{ value }}" placeholder="请输入详细地址" border="{{ false }}" bind:change="onChange" />
+        <van-field label="小区名称" value="{{ value }}" placeholder="如：万达广场1栋" border="{{ false }}" bind:change="onChange" />
+        <van-field label="单元号码" value="{{ value }}" placeholder="如：6单元1102" border="{{ false }}" bind:change="onChange" />
+      </view>
+      <van-cell-group>
+        <view class="show-map">
+          <van-icon name="bag" />
+          <text class="show-text">选择套餐</text>
+        </view>
+        <view class="rental-pay">
+          <van-button size="small" icon="youzan-shield" type="info">113元/月</van-button>
+          <van-button size="small" icon="youzan-shield" type="info">13元/周</van-button>
+          <van-button size="small" icon="youzan-shield" type="info">3元/天</van-button>
+        </view>
+      </van-cell-group>
+    </view>
+    <view class="pay">
+      <van-radio-group value="{{ radio }}" bind:change="onChange">
+        <van-radio icon-size="26rpx" shape="square"> <text>仔细阅读并接受</text> <text class="pay-text">租赁协议</text>
+        </van-radio>
+      </van-radio-group>
+    </view>
+    <view class="pay-button">
+      <view class="pay-button-vw">
+        <text>租赁周期</text>
+        <van-stepper integer value="{{ 1 }}" bind:change="onChange" />
+      </view>
+      <van-button size="small" icon="cart" type="info">确认支付</van-button>
+    </view>
+
+
+
+  </view>
+
 </view>

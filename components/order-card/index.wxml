@@ -1,4 +1,4 @@
-<!--components/order-list/index.wxml-->
+<!--components/order-card/index.wxml-->
 
 <view class="card">
   <view class="card-view">

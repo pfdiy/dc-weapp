@@ -3,7 +3,7 @@
     "van-tab": "@vant/weapp/tab/index",
     "van-tabs": "@vant/weapp/tabs/index",
     "van-button": "@vant/weapp/button/index",
-    "tabbar":"/components/tabbar/index"
+    "tabbar": "/components/tabbar/index"
   },
   "navigationStyle": "custom"
 }

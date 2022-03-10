@@ -1,4 +1,4 @@
 /* pages/order-list/index.wxss */
-page{
+page {
   background-color: #ececec;
 }

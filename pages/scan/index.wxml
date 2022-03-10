@@ -1,4 +1,11 @@
 <!--pages/scan/index.wxml-->
-<view>
-<scan />
+<view class="container">
+  <view class="map-button">
+    <van-button bind:tap="sanCode" icon="/static/scan.png" round type="primary">扫一扫</van-button>
+    <view class="map-button1"></view>
+  </view>
+  <view class="sf">
+    <view class="sf1"></view>
+  </view>
+  <map class="map-view"></map>
 </view>

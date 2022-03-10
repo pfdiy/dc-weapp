@@ -1,7 +1,4 @@
 {
-  "usingComponents": {
-    "device": "/components/device/index"
-  },
-
+  "usingComponents": {},
   "navigationBarBackgroundColor": "#1890ff"
 }

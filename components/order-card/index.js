@@ -1,4 +1,4 @@
-// components/order-list/index.js
+// components/order-card/index.js
 Component({
   /**
    * 组件的属性列表
@@ -30,5 +30,4 @@ Component({
       console.log(pid);
     },
   },
-  
 });
