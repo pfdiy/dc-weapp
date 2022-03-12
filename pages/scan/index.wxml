@@ -5,7 +5,9 @@
     <view class="map-button1"></view>
   </view>
   <view class="sf">
-    <view class="sf1"></view>
+    <view class="sf1">
+
+    </view>
   </view>
   <map class="map-view"></map>
 </view>
