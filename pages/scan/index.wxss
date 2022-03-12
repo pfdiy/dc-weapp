@@ -35,10 +35,41 @@
   z-index: 1;
 }
 .sf1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   width: 700rpx;
-  height: 400rpx;
-  background-color: darkgray;
+  height: 300rpx;
+  background-color: #ffffff;
   border-radius: 20rpx;
   z-index: 1;
-  opacity: 0.9;
+}
+.sf2 {
+  width: 400rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sf3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vertical {
+  display: inline-block;
+  width: 2rpx;
+  background-color: #dcdfe6;
+  margin: 0 16rpx;
+}
+
+.sf3-text1 {
+  font-size: 22rpx;
+}
+.sf3-text2 {
+  font-size: 30rpx;
+}
+.sdd {
+  width: 100%;
 }
