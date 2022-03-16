@@ -4,11 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    value:"75",
-    gradientColor: {
-      '0%': '#ffd01e',
-      '50%': '#ffd01e',
-      '100%': '#ee0a24',}
+    value:"82",
   },
 
   /**

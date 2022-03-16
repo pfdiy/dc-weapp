@@ -1,39 +1,53 @@
 <!--pages/scan/index.wxml-->
 <view class="container">
   <view class="map-button">
-    <van-button bind:tap="sanCode" icon="/static/scan.png" round type="primary">扫一扫</van-button>
-    <view class="map-button1"></view>
+    <van-button bind:tap="sanCode" icon="/static/scan.png" round type="info">扫一扫</van-button>
+    <view class="map-button-bg"></view>
   </view>
-  <view class="sf">
-    <view class="sf1">
-      <view class="sf2">
+  <view class="scan-container">
+    <view class="scan-card">
+      <view class="scan-card-flex">
 
-        <view class="sf3">
-          <text class="sf3-text1">行驶里程</text>
-          <text class="sf3-text2">232 KM</text>
+        <view class="scan-card-text">
+          <text class="scan-text">行驶里程</text>
+          <view class="scan-text1">
+            <text class="scan-text-l">3111</text>
+            <text>公里</text>
+          </view>
         </view>
         <view class="vertical"></view>
-        <view class="sf3">
-          <text class="sf3-text1">更新时间</text>
-          <text class="sf3-text2">2022/12/23 23:30</text>
+        <view class="scan-card-text">
+          <text class="scan-text">更新时间</text>
+          <text class="scan-text-time">2022/12/23 23:30</text>
         </view>
 
-        <van-divider class="sdd" />
+        <van-divider class="divider-w" />
 
-        <view class="sf3">
-          <text class="sf3-text1">剩余天数</text>
-          <text class="sf3-text2">5 天</text>
+        <view class="scan-card-text">
+          <view class="scan-text">剩余天数</view>
+          <view class="scan-text1">
+            <text class="scan-text-l">31</text>
+            <text>天</text>
+          </view>
         </view>
         <view class="vertical"></view>
-        <view class="sf3">
-          <text class="sf3-text1">租赁有效期</text>
-          <text class="sf3-text2">2022/12/23 23:30</text>
+        <view class="scan-card-text">
+          <text class="scan-text">租赁有效期</text>
+          <text class="scan-text-time">2022/12/23 23:30</text>
 
         </view>
       </view>
-      <view>
-        <van-circle layer-color="#4E7280" type="2d" clockwise="{{ false }}" value="{{ value }} " stroke-width="6" color="{{ gradientColor }}" />
-        <!-- <van-button size="mini" round type="primary">续费</van-button> -->
+      <view class="circle">
+        <view class="circle-position">
+          <van-circle layer-color="#f0f0f0" type="2d" clockwise="{{ false }}" value="{{ value}} " stroke-width="8" color="#1989fa" />
+          <view class="circle-text">
+            <text class="circle-text-num">{{value}} %</text>
+            <text class="circle-text-be">剩余电量</text>
+          </view>
+        </view>
+        <view class="scan-button">
+          <van-button size="small" round type="info">续费</van-button>
+        </view>
       </view>
     </view>
   </view>

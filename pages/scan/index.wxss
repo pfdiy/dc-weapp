@@ -16,16 +16,16 @@
   position: absolute;
   z-index: 100;
 }
-.map-button1 {
-  width: 210rpx;
-  height: 110rpx;
+.map-button-bg {
+  width: 105px;
+  height: 55px;
   position: absolute;
   z-index: -2;
   border-radius: 60rpx;
   background-color: #ffffff;
   opacity: 0.7;
 }
-.sf {
+.scan-container {
   display: flex;
   margin-top: 150rpx;
   justify-content: center;
@@ -34,7 +34,7 @@
   position: absolute;
   z-index: 1;
 }
-.sf1 {
+.scan-card {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -45,13 +45,13 @@
   border-radius: 20rpx;
   z-index: 1;
 }
-.sf2 {
+.scan-card-flex {
   width: 400rpx;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.sf3 {
+.scan-card-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,12 +64,52 @@
   margin: 0 16rpx;
 }
 
-.sf3-text1 {
-  font-size: 22rpx;
+.scan-text {
+  font-size: 24rpx;
 }
-.sf3-text2 {
+.scan-text1 {
+  width: 124rpx;
   font-size: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.sdd {
+.scan-text-time {
+  font-size: 26rpx;
+}
+.scan-text-l {
+  padding-right: 4rpx;
+}
+.divider-w {
   width: 100%;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-position {
+  position: relative;
+}
+.circle-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-text-num {
+  font-size: 20px;
+}
+.circle-text-be {
+  font-size: 12px;
+}
+.scan-button {
+  padding: 10rpx;
 }
