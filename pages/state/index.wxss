@@ -78,7 +78,8 @@ page {
   justify-content: center;
   align-items: center;
   width: 165rpx;
-  height: 80rpx;
+  height: 85rpx;
+  position: relative;
 }
 
 .monomer-image {
@@ -97,14 +98,14 @@ page {
 }
 
 .monomer-text-dwon {
-  margin-top: 71rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
+  margin-top: 55rpx;
   width: 70rpx;
   height: 70rpx;
   font-size: 24rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .state-Monomer-flex {

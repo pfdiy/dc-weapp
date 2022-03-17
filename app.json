@@ -7,7 +7,8 @@
     "pages/state/index",
     "pages/scan/index",
     "pages/order-list/index",
-    "pages/rental/index"
+    "pages/rental/index",
+    "pages/dashboard/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -65,6 +65,13 @@
           "name": "",
           "pathName": "pages/rental/index",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/dashboard/index",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }
