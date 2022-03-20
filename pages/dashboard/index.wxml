@@ -6,13 +6,13 @@
         <view class="dashboard-card">
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
+              <image class="card-images" src="/static/ico-blue.png"></image>
               <text class="card-text">注册用户总数</text>
             </view>
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">155</text>
-                <view class="vertical"></view>
+                <view class="vertical-blue"></view>
               </view>
               <image class="card-image" src="/static/user.png"></image>
             </view>
@@ -20,14 +20,14 @@
 
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
+              <image class="card-images" src="/static/ico-magenta.png"></image>
               <text class="card-text">付费用户</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">355</text>
-                <view class="vertical"></view>
+                <view class="vertical-magenta"></view>
               </view>
               <image class="card-image" src="/static/user.png"></image>
             </view>
@@ -36,14 +36,14 @@
 
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
+              <image class="card-images" src="/static/ico-lime.png"></image>
               <text class="card-text">电池总数</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">573</text>
-                <view class="vertical"></view>
+                <view class="vertical-lime"></view>
               </view>
               <image class="card-image" src="/static/dianchibao.png"></image>
             </view>
@@ -52,30 +52,104 @@
 
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
+              <image class="card-images" src="/static/ico-purple.png"></image>
               <text class="card-text">空闲</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">73</text>
-                <view class="vertical"></view>
+                <view class="vertical-purple"></view>
               </view>
-              <image class="card-image" src="/static/user.png"></image>
+              <image class="card-image" src="/static/kongxian.png"></image>
             </view>
 
           </view>
 
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
+              <image class="card-images" src="/static/ico-yellow.png"></image>
               <text class="card-text">在租</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">373</text>
-                <view class="vertical"></view>
+                <view class="vertical-yellow"></view>
+              </view>
+              <image class="card-image" src="/static/chuzu.png"></image>
+            </view>
+
+          </view>
+
+          <view class="dashboard-flex">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-black.png"></image>
+              <text class="card-text">即将逾期</text>
+            </view>
+
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">373</text>
+                <view class="vertical-black"></view>
+              </view>
+              <image class="card-image" src="/static/jjyuqi.png"></image>
+            </view>
+
+          </view>
+
+          <view class="dashboard-flex-w">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-red.png"></image>
+              <text class="card-text">已逾期</text>
+            </view>
+
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">7</text>
+                <view class="vertical-red"></view>
+              </view>
+              <image class="card-image" src="/static/yuqi.png"></image>
+            </view>
+
+            <view class="dashboard-button">
+              <view class="dashboard-text1">
+                <van-cell-group>
+                  <van-cell title="单元格" value="内容" />
+                  <van-cell title="单元格" value="内容"  border="{{ false }}" />
+                </van-cell-group>
+              </view>
+
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab class="tabs-flex" title="收入">
+        <view class="dashboard-card">
+          <view class="dashboard-flex">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-blue.png"></image>
+              <text class="card-text">当日收入</text>
+            </view>
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">155</text>
+                <view class="vertical-blue"></view>
+              </view>
+              <image class="card-image" src="/static/user.png"></image>
+            </view>
+          </view>
+
+          <view class="dashboard-flex">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-magenta.png"></image>
+              <text class="card-text">当月收入</text>
+            </view>
+
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">355</text>
+                <view class="vertical-magenta"></view>
               </view>
               <image class="card-image" src="/static/user.png"></image>
             </view>
@@ -84,38 +158,69 @@
 
           <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
-              <text class="card-text">即将逾期</text>
+              <image class="card-images" src="/static/ico-lime.png"></image>
+              <text class="card-text">总收入</text>
+            </view>
+
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">573</text>
+                <view class="vertical-lime"></view>
+              </view>
+              <image class="card-image" src="/static/dianchibao.png"></image>
+            </view>
+
+          </view>
+
+          <view class="dashboard-flex">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-purple.png"></image>
+              <text class="card-text">支付次数</text>
+            </view>
+
+            <view class="card-card-flex">
+              <view class="card-grid-images">
+                <text class="card-font">73</text>
+                <view class="vertical-purple"></view>
+              </view>
+              <image class="card-image" src="/static/kongxian.png"></image>
+            </view>
+
+          </view>
+
+          <view class="dashboard-flex">
+            <view class="card-grid">
+              <image class="card-images" src="/static/ico-yellow.png"></image>
+              <text class="card-text">出租次数</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
                 <text class="card-font">373</text>
-                <view class="vertical"></view>
+                <view class="vertical-yellow"></view>
               </view>
-              <image class="card-image" src="/static/user.png"></image>
+              <image class="card-image" src="/static/chuzu.png"></image>
             </view>
 
           </view>
 
-          <view class="dashboard-flex-w">
+          <view class="dashboard-flex">
             <view class="card-grid">
-              <image class="card-images" src="/static/blue-dian.png"></image>
-              <text class="card-text">已逾期</text>
+              <image class="card-images" src="/static/ico-black.png"></image>
+              <text class="card-text">人工处理次数</text>
             </view>
 
             <view class="card-card-flex">
               <view class="card-grid-images">
-                <text class="card-font">7</text>
-                <view class="vertical"></view>
+                <text class="card-font">373</text>
+                <view class="vertical-black"></view>
               </view>
-              <image class="card-image" src="/static/user.png"></image>
+              <image class="card-image" src="/static/jjyuqi.png"></image>
             </view>
 
           </view>
         </view>
       </van-tab>
-      <van-tab title="收入">内容 2</van-tab>
     </van-tabs>
   </view>
 </view>
