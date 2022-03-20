@@ -132,4 +132,19 @@ page {
 }
 .dashboard-text1{
   width: 100%;
+
+}
+.dashboard-text2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.dashboard-text3{
+ font-size: 30rpx;
+ font-weight: bold;
+}
+.dashboard-dianhua{
+  width: 40rpx;
+  height: 40rpx;
 }

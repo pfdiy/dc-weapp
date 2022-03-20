@@ -114,12 +114,39 @@
 
             <view class="dashboard-button">
               <view class="dashboard-text1">
-                <van-cell-group>
-                  <van-cell title="单元格" value="内容" />
-                  <van-cell title="单元格" value="内容"  border="{{ false }}" />
-                </van-cell-group>
+              <view class="dashboard-text2">
+              <text class="dashboard-text3">亚里士多德</text>
+              <image class="dashboard-dianhua" src="/static/dianhua.png"></image>
               </view>
-
+              <view><text>电池编号：fn0202031839382</text></view>
+              <view>开始时间：2022/03/15 14:30</view>
+              <view>到期时间：2022/04/15 14:30</view>
+              <van-divider />
+              </view>
+            </view>
+            <view class="dashboard-button">
+              <view class="dashboard-text1">
+              <view class="dashboard-text2">
+              <text class="dashboard-text3">亚里士多德</text>
+              <image class="dashboard-dianhua" src="/static/dianhua.png"></image>
+              </view>
+              <view><text>电池编号：fn0202031839382</text></view>
+              <view>开始时间：2022/03/15 14:30</view>
+              <view>到期时间：2022/04/15 14:30</view>
+              <van-divider />
+              </view>
+            </view>
+            <view class="dashboard-button">
+              <view class="dashboard-text1">
+              <view class="dashboard-text2">
+              <text class="dashboard-text3">亚里士多德</text>
+              <image class="dashboard-dianhua" src="/static/dianhua.png"></image>
+              </view>
+              <view><text>电池编号：fn0202031839382</text></view>
+              <view>开始时间：2022/03/15 14:30</view>
+              <view>到期时间：2022/04/15 14:30</view>
+              <van-divider />
+              </view>
             </view>
           </view>
         </view>
