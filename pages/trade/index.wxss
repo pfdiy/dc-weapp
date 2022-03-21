@@ -1,0 +1,33 @@
+/* pages/trade/index.wxss */
+page {
+  background-color: #ececec;
+}
+.sa{
+  width: 100%;
+}
+.ssss{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  background-color: #ffffff;
+  height: 300rpx;
+
+}
+.trade-text{
+  display: flex;
+  flex-direction: column;
+}
+.trade-images{
+  width: 80rpx;
+  height: 80rpx;
+}
+.notebar{
+  width: 100%;
+}
+.caozuo{
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: #ffffff;
+}

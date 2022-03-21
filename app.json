@@ -8,7 +8,8 @@
     "pages/scan/index",
     "pages/order-list/index",
     "pages/rental/index",
-    "pages/dashboard/index"
+    "pages/dashboard/index",
+    "pages/trade/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

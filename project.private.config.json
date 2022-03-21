@@ -72,6 +72,13 @@
           "name": "",
           "pathName": "pages/dashboard/index",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/trade/index",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }
