@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+   "batterylist":"/components/batterylist/index"
+    }
+}

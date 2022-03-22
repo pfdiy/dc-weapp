@@ -1,0 +1,18 @@
+<!--components/batterylist/index.wxml-->
+<view class="container">
+
+    <view class="search">
+        <van-search value="{{ value }}" shape="round" background="#4fc08d" placeholder="请输入搜索关键词" />
+
+    </view>
+    <view class="card">
+        <view class="card1">
+        <text class="card1-font">可更换</text>
+        </view>
+        <view class="card2">
+        <view>1</view>
+        <view>2</view>
+        <view>3</view>
+        </view>
+    </view>
+</view>

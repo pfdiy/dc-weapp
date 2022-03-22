@@ -220,6 +220,39 @@
           </view>
         </view>
       </view>
+      <view class="alert-w">
+        <view class="alert">
+          <text>2022年3月12日11:18:28</text>
+          <view>
+            <van-tag size="medium" round type="danger">单体电压过高</van-tag>
+          </view>
+        </view>
+      </view>
+      <view class="alert-w">
+        <view class="alert">
+          <text>2022年3月12日11:18:28</text>
+          <view>
+            <van-tag size="medium" round type="danger">单体电压过高</van-tag>
+          </view>
+        </view>
+      </view>
+      <view class="alert-w">
+        <view class="alert">
+          <text>2022年3月12日11:18:28</text>
+          <view>
+            <van-tag size="medium" round type="danger">单体电压过高</van-tag>
+          </view>
+        </view>
+      </view>
+      <view class="alert-w">
+        <view class="alert">
+          <text>2022年3月12日11:18:28</text>
+          <view>
+            <van-tag size="medium" round type="danger">MOS管异常</van-tag>
+          </view>
+        </view>
+      </view>
+      
     </van-tab>
   </van-tabs>
 </view>

@@ -1,0 +1,4 @@
+<!--pages/batterylist/index.wxml-->
+<view class="container">
+ <batterylist />
+</view>

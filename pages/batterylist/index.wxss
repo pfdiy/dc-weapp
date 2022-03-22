@@ -1,0 +1,4 @@
+/* pages/batterylist/index.wxss */
+page {
+    background-color: #ececec;
+}
