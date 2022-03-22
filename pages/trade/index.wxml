@@ -1,45 +1,94 @@
 <!--pages/trade/index.wxml-->
-<view class="co">
-<view class="sa">
-<view class="notebar"><van-notice-bar
-  color="#ffffff"
-  background="#1989fa"
-  left-icon="volume-o"
-  text="按照操作步骤操作，否则存在电池无法替换风险"
-/>
-</view>
-<view class="ssss">
-<image class="trade-images" src="https://img1.baidu.com/it/u=2903766444,9769812&fm=253&fmt=auto&app=138&f=PNG?w=500&h=506"></image>
-<view class="trade-text">
-<text>扫一扫</text>
-<text>请扫描需要更换电池二维码</text>
-</view>
-<van-button size="small" type="info">扫一扫</van-button>
 
-</view>
+<view class="container">
+    <view class="notice">
+        <van-notice-bar color="#ffffff" background="#1989fa" left-icon="volume-o" text="按照操作步骤操作，否则存在电池无法更换风险" />
+    </view>
+    <view class="trade-container">
+        <view class="trade-images">
+            <image class="trade-image" src="/static/saosaosao.png"></image>
+            <view class="vertical"></view>
+            <image class="trade-image" src="/static/saosaosao.png"></image>
+            <view class="vertical"></view>
+            <image class="trade-image" src="/static/saosaosao.png"></image>
+        </view>
+        <view class="trade-flex">
+            <view class="trade-text">
+                <view class="trade-font">
+                    <text>扫一扫</text>
+                    <text>旧编号:632920292092020</text>
+                </view>
+                <van-button size="small" type="info">扫一扫</van-button>
 
-<view>更换记录</view>
-<view class="caozuo">
+            </view>
+            <view class="trade-text">
+                <view class="trade-font">
+                    <text>点击换电池</text>
+                    <text>新编号:102920292092020</text>
+                </view>
+                <van-button size="small" type="info">换电池</van-button>
 
-<view><text>操作说明</text></view>
-<view><image></image>
+            </view>
+            <view class="trade-text">
+                <view class="trade-font">
+                    <text>取走电池</text>
+                    <text>确认完成更换操作</text>
+                </view>
+                <van-button size="small" type="info">完成</van-button>
+            </view>
+        </view>
+    </view>
+    <view class="trade-record">
+        <view class="trade-date-text">
+            <view class="vertical-date"></view><text>更换记录</text>
+        </view>
+        <view>
+            <text class="trade-date">
+                <text>05/25 23:32</text>
+                <text> 旧: 202203011503</text>
+                <text> 新: 202206011303</text>
+            </text>
+        </view>
+        <view>
+            <text class="trade-date">
+                <text>05/25 23:32</text>
+                <text> 旧: 202203011503</text>
+                <text> 新: 202206011303</text>
+            </text>
+        </view>
+        <view>
+            <text class="trade-date">
+                <text>05/25 23:32</text>
+                <text> 旧: 202203011503</text>
+                <text> 新: 202206011303</text>
+            </text>
+        </view>
+        <view>
+            <text class="trade-date">
+                <text>05/25 23:32</text>
+                <text> 旧: 202203011503</text>
+                <text> 新: 202206011303</text>
+            </text>
+        </view>
+    </view>
 
-<text>
-更换电池时，请确保至少存在2块电池，否则无法更换电池；
-</text>
-</view>
-<view><image></image>
-
-<text>
-扫描电池二维码，请确保电池上二维码清晰可见，否则无法正常替换；
-</text>
-</view>
-<view><image></image>
-
-<text>
-更换完毕后，会出现相关记录，无须重复更换，如出现记录无法显示，请联系代理商处理；
-</text>
-</view>
-</view>
-</view>
+    <view class="trade-record">
+        <view class="trade-date-text">
+            <view class="vertical-date"></view><text>操作说明</text>
+        </view>
+        <view class="trade-explain">
+            <view class="trade-date">
+                <image class="card-images" src="/static/ico-blue.png"></image>
+                <text>更换电池时，请确保至少存在2块电池，否则无法更换电池；</text>
+            </view>
+            <view class="trade-date">
+                <image class="card-images" src="/static/ico-blue.png"></image>
+                <text>扫描电池二维码，请确保电池上二维码清晰可见，否则无法正常替换；</text>
+            </view>
+            <view class="trade-date">
+                <image class="card-images" src="/static/ico-blue.png"></image>
+                <text>更换完毕后，会出现相关记录，无须重复更换，如出现记录无法显示，请联系代理商处理；</text>
+            </view>
+        </view>
+    </view>
 </view>

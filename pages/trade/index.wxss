@@ -1,33 +1,102 @@
 /* pages/trade/index.wxss */
 page {
-  background-color: #ececec;
+    background-color: #ececec;
 }
-.sa{
-  width: 100%;
-}
-.ssss{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20rpx;
-  background-color: #ffffff;
-  height: 300rpx;
 
+.container {
+    width: 100%;
 }
-.trade-text{
-  display: flex;
-  flex-direction: column;
+
+.trade-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20rpx;
+    background-color: #ffffff;
+    margin-top: 20rpx;
 }
-.trade-images{
-  width: 80rpx;
-  height: 80rpx;
+
+
+.trade-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 400rpx;
 }
-.notebar{
-  width: 100%;
+
+.trade-image {
+    width: 80rpx;
+    height: 80rpx;
 }
-.caozuo{
-  margin-top: 20rpx;
-  width: 100%;
-  background-color: #ffffff;
+
+.vertical {
+    width: 4rpx;
+    height: 70rpx;
+    display: inline-block;
+    border-radius: 50rpx;
+    background-color: #1890ff;
+}
+
+.trade-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trade-font {
+    display: flex;
+    flex-direction: column;
+    width: 450rpx;
+    text-align: left;
+}
+
+.trade-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trade-record {
+    margin-top: 20rpx;
+    padding: 20rpx;
+    background-color: #ffffff;
+}
+
+.trade-date-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30rpx;
+}
+
+.trade-date {
+    margin-left: 10rpx;
+    font-size: 28rpx;
+    display: flex;
+    align-items: center;
+    margin-top: 10rpx;
+}
+
+.vertical-date {
+    width: 6rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+    display: inline-block;
+    border-radius: 50rpx;
+    background-color: #1890ff;
+}
+
+.trade-explain {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-images {
+    width: 50rpx;
+    height: 50rpx;
 }
