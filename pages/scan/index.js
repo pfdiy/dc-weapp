@@ -1,4 +1,4 @@
-let QQMapWx = require("../../utils/qqmap-wx-jssdk")
+let QQMapWx = require("../../utils/lbs/qqmap-wx-jssdk")
 let qqmapsdk;
 const app = getApp();
 // pages/scan/index.js
