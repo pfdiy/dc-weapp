@@ -10,7 +10,8 @@
         "pages/rental/index",
         "pages/dashboard/index",
         "pages/trade/index",
-        "pages/batterylist/index"
+        "pages/batterylist/index",
+        "pages/location/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -18,5 +19,11 @@
         "navigationBarTextStyle": "black"
     },
     "sitemapLocation": "sitemap.json",
-    "lazyCodeLoading": "requiredComponents"
+    "lazyCodeLoading": "requiredComponents",
+    "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+      }
+  
 }

@@ -15,4 +15,5 @@ App({
 
   url: "http://t.talelin.com/v2/movie",
   gps: "https:api/bsm16.com/",
+  lbskey:"JL4BZ-S6IWG-IYTQA-IPFYH-KNKVV-FWBVX"
 });

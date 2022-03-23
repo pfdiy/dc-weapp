@@ -1,57 +1,70 @@
+let QQMapWx = require("../../utils/qqmap-wx-jssdk")
+let qqmapsdk;
+const app = getApp();
 // pages/scan/index.js
 Page({
-  /**
-   * 页面的初始数据
-   */
-  data: {
-    value:"82",
-  },
+    /**
+     * 页面的初始数据
+     */
+    data: {
+        value: "82",
+    },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {},
+    /**
+     * 生命周期函数--监听页面加载
+     */
+    onLoad: function (options) {
+        qqmapsdk = new QQMapWx({
+            key: app.lbskey
+        })
+    },
 
-  sanCode() {
-    wx.scanCode({
-      success(res) {
-        console.log(res);
-      },
-    });
-  },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {},
+    /**
+     * 生命周期函数--监听页面初次渲染完成
+     */
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {},
+    onReady: function () {},
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {},
+    /**
+     * 生命周期函数--监听页面显示
+     */
+    onShow: function () {
+        wx.getLocation({
+            type: 'gcj02',
+            altitude:true,
+            isHighAccuracy:true,
+            success(res) {
+                const latitude = res.latitude
+                const longitude = res.longitude
+                console.log(latitude)
+                console.log(longitude)
+            },
+        })
+    },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {},
+    /**
+     * 生命周期函数--监听页面隐藏
+     */
+    onHide: function () {},
 
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {},
+    /**
+     * 生命周期函数--监听页面卸载
+     */
+    onUnload: function () {},
 
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {},
+    /**
+     * 页面相关事件处理函数--监听用户下拉动作
+     */
+    onPullDownRefresh: function () {},
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {},
+    /**
+     * 页面上拉触底事件的处理函数
+     */
+    onReachBottom: function () {},
+
+    /**
+     * 用户点击右上角分享
+     */
+    onShareAppMessage: function () {},
 });

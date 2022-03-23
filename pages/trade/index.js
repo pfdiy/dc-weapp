@@ -5,26 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    steps: [
-      {
-        text: '步骤一',
-        desc: '描述信息',
-        inactiveIcon: 'location-o',
-        activeIcon: 'success',
-      },
-      {
-        text: '步骤二',
-        desc: '描述信息',
-        inactiveIcon: 'like-o',
-        activeIcon: 'success',
-      },
-      {
-        text: '步骤三',
-        desc: '描述信息',
-        inactiveIcon: 'star-o',
-        activeIcon: 'cross',
-      },
-    ],
+
   },
 
   /**

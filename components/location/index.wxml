@@ -1,0 +1,4 @@
+<!--components/location/index.wxml-->
+<view class="container">
+<map class="map-view"></map>
+</view>
