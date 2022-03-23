@@ -52,6 +52,10 @@
     "libVersion": "2.23.0",
     "appid": "wx0f3219ebd6ccd416",
     "projectname": "gh",
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    },
     "condition": {
         "search": {
             "list": []
@@ -71,9 +75,5 @@
         "miniprogram": {
             "list": []
         }
-    },
-    "editorSetting": {
-        "tabIndent": "insertSpaces",
-        "tabSize": 4
     }
 }

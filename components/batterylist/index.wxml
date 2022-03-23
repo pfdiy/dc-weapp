@@ -7,12 +7,17 @@
     </view>
     <view class="card">
         <view class="card1">
-        <text class="card1-font">可更换</text>
+            <text class="card1-font">可更换</text>
         </view>
         <view class="card2">
-        <view>1</view>
-        <view>2</view>
-        <view>3</view>
+            <view><text class="font">72V34A 小平箱</text></view>
+            <view><text class="font">72V34A 小平箱</text></view>
+            <view class="button">
+                <van-button plain type="primary" size="mini">在线</van-button>
+                <van-button plain type="primary" size="mini">通电</van-button>
+            </view>
         </view>
+        
     </view>
+     
 </view>
