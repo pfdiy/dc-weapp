@@ -1,4 +1,38 @@
 <!--components/location/index.wxml-->
 <view class="container">
-<map class="map-view"></map>
+<map class="map-view">
+    <view class="map-flex">
+    <view class="map-card"  marker-id="1">
+        <view class="map-gps">
+        <view class="map-gps-images">
+        <image class="map-gps-images-wh" src="/static/Gps-Fixed.png"></image>
+        <view class="map-gps-text">GPS</view>
+        <image class="map-gps-images-wh" src="/static/xinhao-up.png"></image>
+        </view>
+        </view>
+        <view class="map-gps">
+        <view class="map-gps-images">
+        <image class="map-gps-images-wh" src="/static/Gps-Fixed.png"></image>
+        <view class="map-gps-text">GPS</view>
+        <image class="map-gps-images-wh" src="/static/xinhao-up.png"></image>
+        </view>
+        </view>
+        <view class="map-gps">
+        <view class="map-gps-images">
+        <image class="map-gps-images-wh" src="/static/Gps-Fixed.png"></image>
+        <view class="map-gps-text">GPS</view>
+        <image class="map-gps-images-wh" src="/static/xinhao-up.png"></image>
+        </view>
+        </view>
+        <view>2</view>
+        <view>3</view>
+        <view>4</view>
+        <view>5</view>
+        <view>6</view>
+        <view>7</view>
+        <view>8</view>
+        <view>9</view>
+    </view>
+    </view>
+</map>
 </view>
