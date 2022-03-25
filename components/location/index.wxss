@@ -15,27 +15,29 @@
 .map-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  width: 600rpx;
-  height: 400rpx;
+  width: 680rpx;
+  height: 420rpx;
   background-color: #ffffff;
   border-radius: 15rpx;
 }
 .map-gps {
   display: flex;
   align-items: center;
-  width: 580rpx;
-  height: 40rpx;
+  justify-content: space-evenly;
+  width: 680rpx;
+  height: 50rpx;
   background-color: #f7f7f7;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
 }
 .map-gps-images {
   display: flex;
   align-items: center;
 }
 .map-gps-images-wh {
-  width: 26rpx;
-  height: 26rpx;
+  width: 30rpx;
+  height: 30rpx;
   margin-right: 10rpx;
 }
 .map-gps-image-wh {
@@ -48,4 +50,20 @@
   font-weight: bold;
   margin-right: 10rpx;
   color: #999999;
+}
+.map-text {
+  width: 680rpx;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 50rpx;
+}
+.map-text-flex {
+  margin-top: 10rpx;
+  flex: 50%;
+  font-size: 28rpx;
+}
+.map-text-font {
+  width: 650rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
 }

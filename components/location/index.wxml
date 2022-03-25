@@ -9,14 +9,40 @@
                         <text class="map-gps-text">GPS</text>
                         <image class="map-gps-image-wh" src="/static/xinhao-up.png"></image>
                     </view>
+                    <view class="map-gps-images">
+                        <image class="map-gps-images-wh" src="/static/gps_signal.png"></image>
+                        <text class="map-gps-text">GPRS</text>
+                        <image class="map-gps-image-wh" src="/static/xinhao-up.png"></image>
+                    </view>
+                    <view class="map-gps-images">
+                        <image class="map-gps-images-wh" src="/static/tongdian.png"></image>
+                        <text class="map-gps-text">已通电</text>
+                    </view>
+                    <view class="map-gps-images">
+                        <image class="map-gps-images-wh" src="/static/zaixian.png"></image>
+                        <text class="map-gps-text">89%</text>
+                    </view>
                 </view>
-                <view>2</view>
-                <view>2</view>
-                <view>2</view>
-                <view>2</view>
-                <view>2</view>
-                <view>2</view>
+                <view class="map-text">
+                    <view class="map-text-flex"><text>编号：016880991010</text></view>
+                    <view class="map-text-flex"><text>状态：静止(52秒)</text></view>
+                    <view class="map-text-flex"><text>控制：已通电</text></view>
+                    <view class="map-text-flex"><text>电压：83.2V(主电接通)</text></view>
+                    <view class="map-text-flex"><text>温度：16°C</text></view>
+                    <view class="map-text-flex"><text>定位类型：GPS+北斗</text></view>
+                    <view class="map-text-flex"><text>当日里程：234 公里</text></view>
+                    <view class="map-text-flex"><text>总里程：2341 公里</text></view>
+                    <view class="map-text-font"><text>通信时间：2022-03-26 02:22:47</text></view>
+                    <view class="map-text-font"><text>定位时间：2022-03-26 02:24:47</text></view>
+                    <view class="map-text-font"><text>地址：内蒙古自治区赤峰市松山区龙井乡105-21号自治区赤峰市松山区龙井</text></view>
+                </view>
             </view>
         </view>
     </map>
+    <van-tabbar active="{{ active }}" bind:change="onChange">
+        <van-tabbar-item icon="home-o">轨迹</van-tabbar-item>
+        <van-tabbar-item icon="friends-o">寻车</van-tabbar-item>
+        <van-tabbar-item icon="setting-o">断电</van-tabbar-item>
+        <van-tabbar-item icon="setting-o">通电</van-tabbar-item>
+    </van-tabbar>
 </view>
